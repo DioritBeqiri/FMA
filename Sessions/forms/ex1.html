@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="action_page.php" method="post">
+        <label for="emri">Emri:</label>
+        <input type="text" name="emri" id="emri" placeholder="Emri Jauj" required>   
+        <br> <br>
+        
+        <label for="Mbiemri">Mbiemri:</label>
+        <input type="text" name="mbiemri" id="mbiemri" placeholder="Mbiemri Juaj" required>  
+        <br><br>   
+        
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Passwordi Juaj" maxlength="12">
+        <br><br>
+        <label for="password">Confirm Password:</label>
+        <input type="password" name="password" id="password" placeholder="Perserit passwordin" maxlength="12" required>
+        <br><br>
+
+        
+        <label for="reset"></label>
+        <input type="reset" name="" id="">
+        
+        <label for="submit"> </label>
+        <input type="submit" value="Dergo">
+        <br><br>
+        
+        <label for="date">Date</label>
+        <input type="date" name="date" id="">
+        <br><br>
+
+        <label for="select">Selekto</label>
+        <select name="" id="">
+            <option value="">Pica</option>
+            <option value="">hamburger</option>
+        </select>
+        <br><br>
+
+        <label for="radio">Mr</label>
+        <input type="radio" value="Mr." name="radio">
+        <label for="radio">Mrs</label>
+        <input type="radio" value="Msr." name="radio">
+        <br><br>
+        <label for="checkbox">Muzik popullore</label>
+        <input type="checkbox" name="checkbox" value="muzik popullore">
+        <label for="checkbox">Muzik Rock</label>
+        <input type="checkbox"  value="muzik rock">
+        <br><br>
+        <label for="file">Zgjedh file</label>
+        <input type="file" name="file" >
+        <br><br>
+        <label for="quantity">Sasia</label>
+        <input type="number" name="sasia" >
+        <br><br>
+        <label for="koment">Koment</label>
+        <textarea name="" id="" cols="25" rows="10"></textarea>
+        <label for="grup">Grupe formash</label>
+        <fieldset>
+            <legend>Kontaktet</legend>
+            <label for="email">Email</label><br>
+            <input type="email" placeholder="example@gmail.com">
+        </fieldset>
+        <fieldset>
+            <legend>Detajet e Kontaktit</legend>
+            <label for="email">Email <br></label>
+            <input type="email" name="email" placeholder="example@gmail.com"><br>
+            <label for="number">number</label>
+            <input type="num" name="number" placeholder="+383-000-000">
+        </fieldset>
+        <br><br>
+        <input type="reset">
+        <input type="submit" value="Kliko">
+        <br><br>
+
+    </form>
+</body>
+</html>
