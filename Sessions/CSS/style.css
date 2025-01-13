@@ -1,0 +1,29 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+margin: 20px;
+}
+
+.h1{
+margin: 0;
+}
+
+#h1{
+
+}
+
+.bttn{
+    background-color: blue;
+    font-style: italic;
+    margin: 5px;
+    padding: 5px;
+}
+
+.bttn1{
+    padding: 15px;
+}
