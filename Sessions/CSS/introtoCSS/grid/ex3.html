@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: lightblue;
+            display: grid;
+            grid-template-areas:
+            "header header"
+            "aside main"
+            "footer footer"
+            ;
+            grid-template-columns: 1fr 3fr;
+        }
+        .header{
+            grid-area: header   ;
+            border: 4px solid cyan;
+            text-align: center;
+        }
+        .aside{
+            grid-area: aside;
+            border: 4px solid cyan;
+        }
+        .main{
+            grid-area: main;
+            border: 4px solid cyan;
+            padding: 10px;
+        }
+        .footer{
+            grid-area: footer;
+            border: 4px solid cyan;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>CSS Grid Layot</h1>
+    <div class="container">
+       
+        <div class="header">
+            <h1>My Header</h1>
+        </div>
+        <div class="aside">
+            <ul type="none">
+           <li> <a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum suscipit sed quo libero laboriosam quos incidunt facere, voluptatum delectus maxime alias consequuntur beatae ipsum quis! Dicta dolor voluptatem odio illum!</p>
+        </div>
+        <div class="footer">
+            <p><b>Footer</b></p>
+        </div>
+    </div>
+</body>
+</html>
