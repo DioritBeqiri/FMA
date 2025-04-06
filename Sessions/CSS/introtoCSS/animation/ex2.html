@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: shembulli;
+            animation-delay: 1s;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;/*sa here perseritet*/
+            /*vlerat:infinite dhe numra(1,2,3)*/
+            position: relative;
+            animation-direction: alternate;/*alternate-animacioni shkon para, pastaj heren tjeter mbrapa*/
+        }
+        @keyframes shembulli{
+            0%{background-color: red;left: 0px;top: 0px;}
+            25%{background-color: green;left: 200px;top: 0px;}
+            50%{background-color: orange;left: 200px;top: 200px;}
+            75%{background-color: yellow;left: 0px;top: 200px;}
+            100%{ background-color: blue;left: 0;top: 0;}
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

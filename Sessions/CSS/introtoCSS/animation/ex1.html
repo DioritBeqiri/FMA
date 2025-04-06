@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .titulli{
+            animation-name: shembull;
+            animation-duration: 5s;
+            position: relative;
+            margin-top: 600px;
+            margin-right: 100px;
+            
+        }
+        @keyframes shembull{
+            from{left:0;}
+            to{left: 350px;}
+            0% {
+                transform: rotate(0deg); /* Start rotation at 0 degrees */
+            }
+            50% {
+                transform: rotate(180deg); /* Rotate to 180 degrees halfway through */
+            }
+            100% {
+                transform: rotate(360deg); /* Rotate back to 360 degrees (completing a full rotation) */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="titulli">
+        <h3>titulli i pare</h3>
+    </div>
+</body>
+</html>
