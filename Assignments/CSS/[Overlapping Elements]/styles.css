@@ -23,9 +23,9 @@ body {
 
 .green-backdrop {
     display: grid;
-    
+    grid-row: 1/3;
     background-color: green;
-    width: 200%;
+    width: 100%;
     height: 200px;
     border-radius: 20px;
 }
