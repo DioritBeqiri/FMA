@@ -272,7 +272,6 @@ h2 {
     -o-transition: transform .2s ease-in;
     transition: transform .2s ease-in;
     transition: transform .2s ease-in, -webkit-transform .2s ease-in;
-
 }
 
 .listingCardHover {
